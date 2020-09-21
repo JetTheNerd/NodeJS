@@ -1,0 +1,49 @@
+@font-face {
+    font-family: DOS;
+    src: url(perfect_dos_vga_437-webfont.woff);
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: DOS;
+}
+input {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+div#scrollText {
+    -moz-animation: marquee 5s linear infinite;
+    -webkit-animation: marquee 5s linear infinite;
+    animation: marquee 5s linear infinite;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+div#wrapText {
+
+    display: inline;
+    overflow: auto;
+}
+@keyframes marquee {
+    0% {
+        text-indent: -100%;
+    }
+
+    100% {
+        text-indent: 100%;
+    }
+}
+
+br {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    white-space: pre-wrap;
+}

@@ -1,0 +1,19 @@
+
+ TelecomsNetworking Disk Operating System v1.0-a
+Copyright (C) 2020, TelecomsNetworking, All rights reserved.
+Help file revision A-1
+Commands and usages:
+cls                 Clears screen
+echo <string>       Returns echoed string
+help                Displays help file
+o <TeleLINK>        Connects to specified TeleNET networking address
+
+What is TeleDOS?
+TeleDOS is a custom disk operating system designed by TelecomsNetworking for
+the general public in order for the everyday citizen to be able to connect with
+eachother via the TeleDOS BBS (Bulletin Board System) for communication, music sharing,
+file sharing and more!
+Furthermore, TeleNET is connected to an FTP server on which SysOps may upload files such
+as warez, songs, images etc.
+
+EOF End of File
